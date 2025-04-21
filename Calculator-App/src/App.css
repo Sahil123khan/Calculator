@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+
+}
+
+.centerdiv {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.calcucontainer {
+  width: 20%;
+  min-height: 400px;
+  border: 2px solid black;
+}
+
+.inputdiv {
+  width: 100%;
+  padding: 10px;
+}
+
+.input {
+ border: 1px solid black;
+}
+.buttondiv{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button {
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+}
+
+.button:hover{
+  background-color: bisque;
+}
+
